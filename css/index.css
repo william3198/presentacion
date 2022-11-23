@@ -1,5 +1,6 @@
 @import url("./modulos/variables.css");
 @import url("./modulos/header.css");
+@import url("./modulos/nav.css");
 
   .body{
    background-color: var(--primary-theme-color);
