@@ -1,0 +1,7 @@
+.container{
+    background-color: dodgerblue;
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+    padding-left: var(--padding-container) ;
+    padding-right: var(--padding-container);
+}
