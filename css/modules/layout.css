@@ -3,16 +3,8 @@
   padding-bottom: var(--padding-section);
 }
 
-.foto{
-  border-radius: 50%;
-  border-color: #037579;
-  
-  box-shadow: 0 0 0.25rem 0.25rem rgb(26, 148, 136);
-  object-fit: cover;
-}
-
 .section--hero {
-  background-image: url(../img/fullwebp.webp) ;
+  background-image: url('../../stats/img/fullwebp.webp');
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
@@ -32,19 +24,16 @@
 
 .f-elements--header {
   align-items: center;
-  gap: 50%;
   justify-content: space-between;
 }
 
 .f-elements--center {
   align-items: center;
-  gap: 20%;
   justify-content: center;
 }
 
 .f-elements--responsive {
   flex-direction: column;
-  
 }
 
 @media (min-width: 768px) {
